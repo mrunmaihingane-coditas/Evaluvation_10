@@ -76,3 +76,41 @@ public class App {
         }
     }
 }
+
+1.Insert Book 
+2. Insert Author
+3. Inser Publisher 
+4. Add Book, Author , Publisher parallelly
+5. delete Book 
+6. Update Book
+7. Query 2 
+7
+Hibernate: select book0_.Bid as bid1_1_0_, author1_.Autid as autid1_0_1_, publisher2_.pid as pid1_2_2_, book0_.Publiser_date as publiser2_1_0_, book0_.author_Autid as author_a5_1_0_, book0_.price as price3_1_0_, book0_.publisher_pid as publishe6_1_0_, book0_.title as title4_1_0_, author1_.name as name2_0_1_, publisher2_.Publiser_name as publiser2_2_2_ from Book book0_ inner join authors author1_ on book0_.author_Autid=author1_.Autid inner join publishers publisher2_ on book0_.publisher_pid=publisher2_.pid
+Book ID: 1
+Book Name: Ramayan
+Author Name: Anjali
+Publication Name: Nirali
+Book Price: 200
+----------------------
+Book ID: 2
+Book Name: Mahabhart
+Author Name: Anjali
+Publication Name: Nirali
+Book Price: 600
+----------------------
+Book ID: 3
+Book Name: Bhagvatgeeta
+Author Name: Anjali
+Publication Name: Nirali
+Book Price: 300
+----------------------
+1.Insert Book 
+2. Insert Author
+3. Inser Publisher 
+4. Add Book, Author , Publisher parallelly
+5. delete Book 
+6. Update Book
+7. Query 2 
+
+Process finished with exit code 130
+CRUD Done No NULL VALUES and one query done
